@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sisaluno</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <titulo>
+        <img src="img.png">
+
+        <nav>
+            <a href = "./index.html"> Home </a>
+            <a href = "./aluno.html"> Aluno </a>
+            <a href = "./lista-aluno.html"> Lista Aluno </a>
+            <a href = "./professor.html"> Professor </a>
+            
+        </nav>
+
+        <img src="img.png">
+    </titulo>
+    
+    <article class = "principal">
+        <section> 
+            <h1 style="text-align: center"> Cadastro de Professor</h1>
+
+            <form action="./professor.html">
+
+
+            <h1>Dados Pessoais</h1> 
+ 
+        <div class="box1">
+
+            <label for = "name"> Nome do Professor </label>
+            <input type="text" name="nome" id="nome"> 
+
+            <br>
+            <label for = "endereco"> Endereço </label>
+            <input type="text" name="endereco" id="endereco"> 
+
+            <br>
+            <label for="cidade">Cidade</label>
+            <select id="cidade" name="cidade">
+            <option value="guanambi">Guanambi</option>
+            <option value="caitité"> Caitité</option>
+            <option value="itabuna"> Itabuna</option>
+            </select>
+
+            <label for="estado"> Estado</label>
+            <select id="estado" name="estado">
+            <option value="bahia">Bahia</option>
+            <option value="minas"> Minas Gerais</option>
+            <option value="pernambuco"> Pernambuco</option>
+            </select> 
+            
+        
+        </div>
+
+        <h2>Dados Profissionais</h2>
+        <div class="box2"> 
+
+
+            <label for = "local"> Local de Trabalho </label>
+            <input type="text" name="local" id="local"> 
+
+        </div>
+            
+        <br>
+            <input type ="submit" value ="Salvar">
+        </form>
+
+        </section>
+    </article>
+
+    <footer> Rodape </footer>
+
+</body>
+</html>
