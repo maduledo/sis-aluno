@@ -14,12 +14,12 @@ titulo > nav {
        display: flex;
        justify-content: space-between;
        align-items: center;
-       width: 300px;
+       width: 400px;
 }
 
-titulo nav> a:link {
+titulo nav> a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(215, 219, 156);
 }
 
 titulo nav> a:hover {
@@ -29,11 +29,9 @@ titulo nav> a:hover {
 
 
 
-
-
 .principal {
     display: flex;
-    height: 400px;
+    height: 600px;
     border: 0px;
     margin: 8px 0;
     border-radius: 4px;
@@ -42,12 +40,12 @@ titulo nav> a:hover {
 
 .principal > section {
     flex: 5;
-    background-color: rgb(64, 92, 55);
+    background-color:  rgb(64, 92, 55);
 }
 
 .principal > aside {
     flex: 1;
-    background-color: rgb(27, 63, 35);
+    background-color: rgb(113, 150, 93);
 }
 
 .principal > name {
@@ -56,7 +54,7 @@ titulo nav> a:hover {
 
 footer {
     background-color: rgb(40, 70, 45);
-    height:150px ;
+    height:100px ;
     text-align: center;
     padding-top: 100px;
 }

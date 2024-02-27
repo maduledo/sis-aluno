@@ -13,12 +13,12 @@ titulo > nav {
        display: flex;
        justify-content: space-between;
        align-items: center;
-       width: 300px;
+       width: 400px;
 }
 
-titulo nav> a:link {
+titulo nav> a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(215, 219, 156);
 }
 
 titulo nav> a:hover {
@@ -32,13 +32,14 @@ principal {
 
 .principal {
     display: flex;
-    height: 400px;
+    height: 600px;
     border: 0px;
 }
 
 .principal > section {
     flex: 5;
     background-color: rgb(64, 92, 55);
+    border-radius: 0px;
 }
 
 .principal > aside {
@@ -52,22 +53,22 @@ principal {
 
 footer {
     background-color: rgb(40, 70, 45);
-    height:150px ;
+    height:100px ;
     text-align: center;
     padding-top: 100px;
 }
 
 
-input[name="nome"], section {
-    width: 50%;
+#nome, section {
+    width: 800px;
     padding: 5px 5px;
     margin: 8px 0;
     border-radius: 4px;
     text-align: center;
   }
   
-  input[name="endereco"], section {
-    width: 50%;
+  #endereco, section {
+    width: 700px;
     padding: 5px 5px;
     margin: 8px 0;
     border-radius: 4px;
@@ -75,25 +76,32 @@ input[name="nome"], section {
   }
   
   
-  input[type=idade], section {
-    width: 100%;
-    padding: 12px 20px;
+  input[type=number], section {
+    width: 100px;
+    padding: 5px 5px;
     margin: 8px 0;
     border-radius: 4px;
     box-sizing: border-box;
   }
   
-  input[type=senha], section {
-    width: 100%;
-    padding: 12px 20px;
+  input[type=password], section {
+    width: 150px;
+    padding: 5px 5px;
     margin: 8px 0;
     border-radius: 4px;
   }
   
-  input[type=email], section {
-    width: 100%;
-    padding: 12px 20px;
+  input[type=text], section {
+    width: 400px; 
+    padding: 5px 5px;
     margin: 8px 0;
     border-radius: 4px;
   }
+  input[type=submit], section {
+    width: 100px; 
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+  }
+  
   

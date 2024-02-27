@@ -13,12 +13,12 @@ titulo > nav {
        display: flex;
        justify-content: space-between;
        align-items: center;
-       width: 300px;
+       width: 400px;
 }
 
-titulo nav> a:link {
+titulo nav> a {
     text-decoration: none;
-    color: aliceblue;
+    color: rgb(215, 219, 156);
 }
 
 titulo nav> a:hover {
@@ -31,13 +31,14 @@ principal {
 
 .principal {
     display: flex;
-    height: 400px;
+    height: 600px;
     border: 0px;
 }
 
 .principal > section {
     flex: 5;
     background-color: rgb(64, 92, 55);
+    border-radius: 0px;
 }
 
 .principal > aside {
@@ -51,20 +52,90 @@ principal {
 
 footer {
     background-color: rgb(40, 70, 45);
-    height:150px ;
+    height:100px ;
     text-align: center;
     padding-top: 100px;
 }
 
 .box1 { 
-    background-color: rgb(142, 223, 122);
+    background-color: rgb(40, 70, 45);
     height: 150px;
     width: 900px;
     margin-left: 220px;
   }
 
+  #nome, section {
+    width: 700px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #endereco, section {
+    width: 600px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  #cidade, section {
+    width: 220px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  #estado, section {
+    width: 180px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
   .box2 {
-    background-color: rgb(102, 155, 78);
+    background-color: rgb(40, 70, 45);
     height: 150px;
     width: 900px;
+    margin-left: 220px;
+  }
+
+  #local, section {
+    width: 600px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  #formação, section {
+    width: 500px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  #especialização, section {
+    width: 400px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  input[type=submit], section {
+    width: 100px; 
+    padding: 5px 5px;
+    margin: 8px 0;
+    border-radius: 4px;
   }

@@ -15,6 +15,7 @@
             <a href = "./aluno.html"> Aluno </a>
             <a href = "./lista-aluno.html"> Lista Aluno </a>
             <a href = "./professor.html"> Professor </a>
+            <a href = "./lista-professor.html"> Lista Professor </a>
             
         </nav>
 
@@ -23,12 +24,12 @@
     
     <article class = "principal">
         <section> 
-            <h1 style="text-align: center"> Cadastro de Professor</h1>
+            <h2 style="text-align: center;color: rgb(215, 219, 156)"> Cadastro de Professor</h2>
 
             <form action="./professor.html">
 
 
-            <h1 style="text-align: center;">Dados Pessoais</h1> 
+            <h1 style="text-align: center; padding-top: 30px; color: rgb(215, 219, 156)">Dados Pessoais</h1> 
  
         <div class="box1">
 
@@ -42,9 +43,9 @@
             <br>
             <label for="cidade">Cidade</label>
             <select id="cidade" name="cidade">
-            <option value="guanambi">Guanambi</option>
-            <option value="caitité"> Caitité</option>
-            <option value="itabuna"> Itabuna</option>
+            <option value="guanambi">Salvador</option>
+            <option value="caitité"> Montes Claros </option>
+            <option value="itabuna"> Recife </option>
             </select>
 
             <label for="estado"> Estado</label>
@@ -57,15 +58,19 @@
         
         </div>
 
-        <h2 style="text-align: center;">Dados Profissionais</h2>
+        <h1 style="text-align: center; color: rgb(215, 219, 156)">Dados Profissionais</h1>
         <div class="box2"> 
 
-
+            <div class="loc">
             <label for = "local"> Local de Trabalho </label>
-            <input type="text" name="local" id="local"> 
+            <input type="text" name="local" id="local">
+        </div>
+             
 
+           <div class="form">
             <label for = "formação"> Formação </label>
-            <input type="text" name="formação" id="formação"> 
+            <input type="text" name="formação" id="formação">
+        </div> 
 
             <label for = "especialização"> Especialização </label>
             <input type="text" name="especialização" id="especialização"> 
