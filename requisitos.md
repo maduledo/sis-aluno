@@ -1,6 +1,6 @@
-# Requisitos <h3>
+## Requisitos
 
-# Home <h1>:
+# Home:
   * Modificar proparção do tamanho da layout.
     
  Aluno:
